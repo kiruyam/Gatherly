@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <div class="signup-container">
+        <div class="header">
+            <h1>Sign up</h1>
+        </div>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <div class="input-container">
+                    <span class="icon">👤</span>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <div class="input-container">
+                    <span class="icon">✉️</span>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Create Password</label>
+                <div class="input-container">
+                    <span class="icon">🔑</span>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <div class="input-container">
+                    <span class="icon">🔑</span>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                </div>
+            </div>
+            <button type="button" id="nextButton">Next</button>
+        </form>
+        <div class="footer">
+            <p>Already have an account? <a id="loginLink" href="#">Log In</a></p>
+        </div>
+    </div>
+    <script src="page2.js"></script>
+</body>
+</html>
